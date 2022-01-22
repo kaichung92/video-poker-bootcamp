@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>VIDEO POKER</h1>
+
+    <div id="scoreboard">
+      <div>
+        <li>FIVE OF A KIND</li>
+        <li>ROYAL FLUSH</li>
+        <li>STRAIGHT FLUSH</li>
+        <li>FOUR OF A KIND</li>
+        <li>FULL HOUSE</li>
+        <li>FLUSH</li>
+        <li>STRAIGHT</li>
+        <li>THREE OF A KIND</li>
+        <li>TWO PAIR</li>
+        <li class="tier-ten">JACKS OR BETTER</li>
+      </div>
+      <div id="prizeList1">
+        <li>500</li>
+        <li>100</li>
+        <li>50</li>
+        <li>20</li>
+        <li>9</li>
+        <li>7</li>
+        <li>5</li>
+        <li>3</li>
+        <li>2</li>
+        <li class="tier-ten">1</li>
+      </div>
+      <div id="prizeList2">
+        <li>1000</li>
+        <li>200</li>
+        <li>100</li>
+        <li>40</li>
+        <li>18</li>
+        <li>14</li>
+        <li>8</li>
+        <li>6</li>
+        <li>4</li>
+        <li class="tier-ten">2</li>
+      </div>
+      <div id="prizeList3">
+        <li>1500</li>
+        <li>300</li>
+        <li>150</li>
+        <li>60</li>
+        <li>27</li>
+        <li>21</li>
+        <li>12</li>
+        <li>9</li>
+        <li>6</li>
+        <li class="tier-ten">3</li>
+      </div>
+      <div id="prizeList4">
+        <li>2000</li>
+        <li>400</li>
+        <li>200</li>
+        <li>80</li>
+        <li>36</li>
+        <li>28</li>
+        <li>16</li>
+        <li>12</li>
+        <li>8</li>
+        <li class="tier-ten">4</li>
+      </div>
+      <div id="prizeList5">
+        <li>2500</li>
+        <li>500</li>
+        <li>250</li>
+        <li>100</li>
+        <li>45</li>
+        <li>35</li>
+        <li>20</li>
+        <li>15</li>
+        <li>10</li>
+        <li class="tier-ten">5</li>
+      </div>
+    </div>
+    <div id="details-container">
+      <div id="player-credit">TOKEN : 100</div>
+      <div id="player-bet">BET : 0</div>
+    </div>
+    <div id="card-container">
+      <div id="card1" class="card">
+        <div class="card card-back"></div>
+        <div id="card-front-0" class="card card-front">
+          <div class="hold-card"></div>
+        </div>
+      </div>
+      <div id="card2" class="card">
+        <div class="card card-back"></div>
+        <div id="card-front-1" class="card card-front">
+          <div class="hold-card"></div>
+        </div>
+      </div>
+      <div id="card3" class="card">
+        <div class="card card-back"></div>
+        <div id="card-front-2" class="card card-front">
+          <div class="hold-card"></div>
+        </div>
+      </div>
+      <div id="card4" class="card">
+        <div class="card card-back"></div>
+        <div id="card-front-3" class="card card-front">
+          <div class="hold-card"></div>
+        </div>
+      </div>
+      <div id="card5" class="card">
+        <div class="card card-back"></div>
+        <div id="card-front-4" class="card card-front">
+          <div class="hold-card"></div>
+        </div>
+      </div>
+    </div>
+    <div id="button-container">
+      <button id="dealButton" class="deal-button">DEAL</button>
+      <button id="betButton1" class="bet-button">1</button>
+      <button id="betButton2" class="bet-button">1</button>
+      <button id="betButton3" class="bet-button">1</button>
+      <button id="betButton4" class="bet-button">1</button>
+      <button id="betButton5" class="bet-button">1</button>
+    </div>
+    <div id="result-container"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>
